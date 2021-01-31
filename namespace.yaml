@@ -1,7 +1,8 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: emojivoto
+  name: test-namespace
   labels:
     app.kubernetes.io/name: emoji
+  annotations:
     linkerd.io/inject: enabled
